@@ -26,6 +26,19 @@
     justify-content: center;
 }
 
+.items-around {
+    align-content: space-around;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+
 
 /* headers */
 
@@ -60,7 +73,7 @@ ul {
 /* main */
 
 
-section {
+.prima-section {
     height: 800px;
     padding-top: 100px;
     border-bottom: 3px solid black;
@@ -81,4 +94,32 @@ section {
     height: 600px;
     max-width: 450px;
     background-color: grey;
+}
+
+.ultima-section {
+    height: 1200px;
+    border-bottom: 3px solid black;
+}
+
+
+.ultima-img {
+    width: 1000px;
+    height: 650px;
+    background-color: blue;
+}
+
+/* footer */
+
+
+footer {
+    background-color: blue;
+    color: white;
+    padding: 50px 150px 0;
+    height: 650px;
+}
+
+
+
+.lingua {
+    min-width: 20%;
 }
