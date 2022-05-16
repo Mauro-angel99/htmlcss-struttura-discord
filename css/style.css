@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility */
+
+.conteiner-flex {
+    display: flex;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.content-center {
+    justify-content: center;
+}
+
+
+/* headers */
+
+
+.menu {
+    height: 50px;
+    background-color: green;
+}
+
+nav {
+    min-width: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+#header {
+    height: 500px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+#intro {
+    height: 50%;
+    width: 50%;
+    background-color: red;
+}
+
+
+/* main */
